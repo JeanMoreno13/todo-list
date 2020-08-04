@@ -1,0 +1,69 @@
+/*Container */
+#root{
+    display:flex;
+    justify-content: center;
+}
+
+#root .App { 
+    border:1px solid black;
+}
+
+/*Title*/
+#root .App h1{
+    margin:0;
+    background-color:#03a9f4;
+    text-align:center;
+    color:white;
+}
+
+/*Buttons*/
+#root .App button{
+    border:none;
+    background-color:#03a9f4;
+    color:white;
+}
+
+#root .App ul button{
+    border-radius:50%;
+    margin-left:5px;
+}
+
+#root .App ul button:hover,#root .App form button:hover{ 
+    cursor:pointer;
+}
+
+#root .App form button{
+    height:100%;
+    border-radius:0;
+    border-top:1px solid black;
+}
+
+/*List Task*/
+#root .App ul{
+    list-style:none;
+    padding: 0;
+    margin:0;
+}
+
+#root .App ul li{
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+
+/*Form*/
+#root .App form{
+    display:flex;
+    justify-content:center;
+}
+#root .App form input{
+    outline: none;
+    border-radius:0;
+    border:none;
+    border-top:1px solid black;
+    width:80%;
+}
+#root .App form button{
+    display:flex;
+    flex-grow: 1;
+}
